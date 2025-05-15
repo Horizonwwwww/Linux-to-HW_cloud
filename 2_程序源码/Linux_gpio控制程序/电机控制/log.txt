@@ -1,0 +1,12 @@
+04/16
+IIC_IO_motor.c
+将P0~P7全置0测试失败，PCF模块故障IO无法控制
+
+04/16
+gpioled_motor.c
+通过sysfs方式调用gpio1b0、gpio1b1连接L298N驱动板in0、in1控制电机，
+电压表测试in0、in1为3V、0V时，输出端A两端子为0V，可能故障：L298N
+
+04/
+
+

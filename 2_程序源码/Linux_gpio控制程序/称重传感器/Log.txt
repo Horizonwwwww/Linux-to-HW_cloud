@@ -1,0 +1,29 @@
+04/10
+two_gpio.c：有两通用gpio接口时使用
+
+
+04/12
+IIC_IO_weight.c：使用IIC接口-PCF8574T-两通用IO接口-HX711-称重传感器
+
+
+04/13
+IIC_IO_weight.c 程序存在较大问题，但校准部分具有较大参考性，改用新程序
+new_IIC_IO_weight.c 初版
+new2_IIC_IO_weight.c 程序模型修改
+
+
+04/14
+new_IIC_IO_weight.c 增加debug调试，结论：硬件时序不对等，需要更换方案
+可能原因：PCF模块故障
+
+04/17
+uart_weight.c
+改用UART串口TTL电平通信，程序已编好，等待硬件，未测试
+
+04/23
+uart_weight_new.c
+根据串口模块自定义协议数据格式修改相应接收数据与读取数据格式的程序，未改完
+
+
+
+
